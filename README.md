@@ -1,35 +1,71 @@
-# AI-Powered Text Summarizer
+# 🤖 AI-Powered Text Summarizer
 
-## Project Overview
+## 📌 Project Overview
 
-This project is a beginner-friendly text summarization application developed using Python.
+The AI-Powered Text Summarizer is a beginner-friendly Artificial Intelligence and Natural Language Processing project developed using Python.
 
-The application accepts a paragraph from the user and generates a short summary by selecting the first two sentences.
+The application accepts a paragraph from the user, analyzes the text, displays basic text statistics, and generates a concise summary by selecting important sentences from the input.
 
-## Technologies Used
+This project demonstrates how AI concepts and programming can be used to improve productivity and process textual information.
+
+## 🎯 Objectives
+
+- Understand basic AI and NLP concepts
+- Process user-provided text
+- Generate a short text summary
+- Analyze text statistics
+- Build and publish a complete project using GitHub
+
+## 🛠️ Technologies Used
 
 - Python
-- Artificial Intelligence concepts
+- Natural Language Processing concepts
 - GitHub
-- ChatGPT for coding assistance
+- AI-assisted development using ChatGPT
 
-## Features
+## ✨ Features
 
-- Accepts text input from the user
-- Processes the entered paragraph
+- Accepts paragraph input from the user
+- Removes empty sentences
 - Generates a short summary
-- Simple and beginner-friendly implementation
+- Counts the number of words
+- Counts the number of characters
+- Provides a simple command-line interface
+- Beginner-friendly implementation
 
-## How AI Tools Helped
+## ⚙️ How It Works
 
-ChatGPT was used to understand Python concepts, write and improve the code, solve errors, and prepare project documentation.
+The application follows these steps:
 
-## How to Run
+1. The user enters a paragraph.
+2. The program processes the text.
+3. The text is divided into individual sentences.
+4. Empty sentences are removed.
+5. The first two meaningful sentences are selected as the summary.
+6. The program displays text statistics.
+7. The generated summary is displayed to the user.
 
-1. Install Python.
-2. Clone this repository.
-3. Open the project folder.
-4. Run the following command:
+## 📂 Project Structure
 
-```bash
+```text
+AI-Text-Summarizer/
+│
+├── ai_text_summarizer.py
+├── requirements.txt
+└── README.md
+```
+git clone https://github.com/divya-nagraj/AI-Text-Summarizer.git
+cd AI-Text-Summarizer
 python ai_text_summarizer.py
+Artificial Intelligence is transforming many industries.
+It is used in healthcare, education, finance, and transportation.
+AI tools can also help students learn faster and improve productivity.
+Text Statistics
+----------------
+Number of words: 25
+Number of characters: 176
+
+Summary
+----------------
+Artificial Intelligence is transforming many industries.
+It is used in healthcare, education, finance, and transportation.
